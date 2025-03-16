@@ -26,7 +26,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Start Menu")
 
 # Load images
-turtle_image = pygame.image.load('turtle.png')
+turtle_image = pygame.image.load('FlyingFred.png')
 circle_image = pygame.image.load('circle.png')
 
 def draw_text(text, font, color, surface, x, y):
